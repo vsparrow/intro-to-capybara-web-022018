@@ -1,4 +1,5 @@
 <%# Write your code here! %>
 params
 <%= @params %>
-"Hi <%= @params["user_name"]%>, nice to meet you!"
+<!-- "Hi <%= @params["user_name"]%>, nice to meet you!" -->
+"Hi <%= @params[:user_name]%>, nice to meet you!"
